@@ -7,10 +7,6 @@ decisions* as real data would. PolicySynth is a tabular generator built for that
 goal, and it ships with **Strategy Simulation Fidelity (SSF)** — a metric that
 measures decision alignment directly, not distributional similarity.
 
-> Reference implementation for: Dang, Phung, Nguyen & Nguyen, *"Strategy
-> Simulation Fidelity: Aligning Synthetic Customer Populations with Real
-> Decisions in Decision Support Systems,"* **Decision Support Systems** (2026).
-
 ---
 
 ## Install
