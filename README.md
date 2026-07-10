@@ -1,4 +1,14 @@
-# PolicySynth
+<table border="0">
+  <tr>
+    <td>
+      <img src="policysynth.png" alt="QBayMic Logo" width="400" valign="middle">
+    </td>
+    <td>
+      <h1>PolicySynth</h1>
+      <h3>Trustworthy synthetic data for campaign decision support: strategy simulation fidelity and the PolicySynth framework</h3>
+    </td>
+  </tr>
+</table>
 
 **Decision-aligned synthetic customer data for decision support systems.**
 
