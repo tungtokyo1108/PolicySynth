@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "policysynth"
+version = "0.1.0"
+description = "Decision-aligned synthetic data for decision support systems, with Strategy Simulation Fidelity (SSF)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Tung Dang", email = "dangthanhtung91@gmail.com" },
+    { name = "The Hung Phung" },
+    { name = "Son Lam Nguyen" },
+    { name = "Tu Nguyen" },
+]
+keywords = [
+    "synthetic-data", "decision-support-systems", "customer-churn",
+    "diffusion-models", "differential-privacy", "tabular-data",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "scikit-learn>=1.0",
+    "torch>=1.12",
+]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.4"]
+
+[project.urls]
+Homepage = "https://github.com/tungdang/policysynth"
+Repository = "https://github.com/tungdang/policysynth"
+
+[tool.setuptools]
+packages = ["policysynth"]

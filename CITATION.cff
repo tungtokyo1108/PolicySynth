@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "PolicySynth: Decision-Aligned Synthetic Data for Decision Support Systems"
+message: "If you use this software, please cite both the software and the paper."
+type: software
+authors:
+  - family-names: Dang
+    given-names: Tung
+    orcid: "https://orcid.org/0000-0002-4974-9632"
+    affiliation: "Graduate School of Science, The University of Tokyo"
+  - family-names: Phung
+    given-names: The Hung
+    orcid: "https://orcid.org/0009-0001-8682-5235"
+    affiliation: "Faculty of Human Resource Management, Trade Union University"
+  - family-names: Nguyen
+    given-names: Son Lam
+    orcid: "https://orcid.org/0009-0001-5302-5047"
+    affiliation: "Institute for Business Management Development, Academy of Finance"
+  - family-names: Nguyen
+    given-names: Tu
+    orcid: "https://orcid.org/0009-0001-1781-2617"
+    affiliation: "Ministry of Industry and Trade"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/tungdang/policysynth"
+preferred-citation:
+  type: article
+  title: "Strategy Simulation Fidelity: Aligning Synthetic Customer Populations with Real Decisions in Decision Support Systems"
+  authors:
+    - family-names: Dang
+      given-names: Tung
+    - family-names: Phung
+      given-names: The Hung
+    - family-names: Nguyen
+      given-names: Son Lam
+    - family-names: Nguyen
+      given-names: Tu
+  journal: "Decision Support Systems"
+  year: 2026
