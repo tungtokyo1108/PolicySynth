@@ -35,10 +35,22 @@ dependencies = [
 
 [project.optional-dependencies]
 examples = ["matplotlib>=3.4"]
+dev = ["pytest>=7.0"]
 
 [project.urls]
 Homepage = "https://github.com/tungdang/policysynth"
 Repository = "https://github.com/tungdang/policysynth"
+"Bug Tracker" = "https://github.com/tungdang/policysynth/issues"
 
-[tool.setuptools]
-packages = ["policysynth"]
+# ── src/ layout: modules live under src/policysynth/. Auto-discovered so the
+#    installed package is exactly what tests import — no "works locally, breaks
+#    when installed" surprises. ──────────────────────────────────────────────
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Ship the sample CSV inside the wheel so the quickstart runs with no downloads.
+"policysynth.datasets" = ["*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

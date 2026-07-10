@@ -29,6 +29,7 @@ from .evaluate import (
     membership_inference_auc,
     novelty_rate,
 )
+from .datasets import load_telco_sample
 
 __version__ = "0.1.0"
 
@@ -42,4 +43,5 @@ __all__ = [
     "three_axis_report",
     "membership_inference_auc",
     "novelty_rate",
+    "load_telco_sample",
 ]
