@@ -22,8 +22,7 @@ measures decision alignment directly, not distributional similarity.
 ## Install
 
 ```bash
-pip install policysynth            # from PyPI (once released)
-# or, from a clone:
+# from a clone:
 git clone https://github.com/tungdang/policysynth && cd policysynth
 pip install -e .                   # add [dev] for tests, [examples] for plots
 ```
