@@ -10,6 +10,12 @@
   </tr>
 </table>
 
+## The workflow
+
+<img src="Main_figure.png" width="1000" height="500">
+
+---
+
 **Decision-aligned synthetic customer data for decision support systems.**
 
 Synthetic data is only useful to a DSS if it leads managers to the *same
