@@ -5,7 +5,7 @@
     </td>
     <td>
       <h1>PolicySynth</h1>
-      <h3>Trustworthy synthetic data for campaign decision support: strategy simulation fidelity and the PolicySynth framework</h3>
+      <h3>Dang, T., Phung, T. H., Nguyen, S. L., & Nguyen, T. (2026). arXiv preprint. https://doi.org/10.48550/arXiv.2607.11269 </h3>
     </td>
   </tr>
 </table>
