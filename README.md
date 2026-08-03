@@ -1,7 +1,7 @@
 <table border="0">
   <tr>
     <td>
-      <img src="policysynth.png" alt="QBayMic Logo" width="400" valign="middle">
+      <img src="policysynth.png" alt="QBayMic Logo" width="850" valign="middle">
     </td>
     <td>
       <h1>PolicySynth</h1>
